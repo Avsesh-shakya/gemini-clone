@@ -14,7 +14,7 @@ async function main(prompt) {
  // Access the actual text content properly
  const resultText = response.candidates?.[0]?.content?.parts?.[0]?.text || "No response found";
   
- console.log(resultText);
+//  console.log(resultText);
  return resultText;
 }
 
